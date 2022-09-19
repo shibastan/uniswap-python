@@ -14,6 +14,7 @@ _netid_to_name = {
     137: "polygon",
     100: "xdai",
     250: "fantom",
+    10001: "pow_eth",
     42161: "arbitrum",
     421611: "arbitrum_testnet",
     1666600000: "harmony_mainnet",
@@ -42,6 +43,7 @@ _factory_contract_addresses_v2 = {
     # SushiSwap on Harmony
     "harmony_mainnet": "0xc35DADB65012eC5796536bD9864eD8773aBc74C4",
     "harmony_testnet": "0xc35DADB65012eC5796536bD9864eD8773aBc74C4",
+    "pow_eth": "0x115934131916C8b277DD010Ee02de363c09d037c",
 }
 
 _router_contract_addresses_v2 = {
@@ -55,6 +57,7 @@ _router_contract_addresses_v2 = {
     # SushiSwap on Harmony
     "harmony_mainnet": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
     "harmony_testnet": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+    "pow_eth": "0x03f7724180AA6b939894B5Ca4314783B0b36b329",
 }
 
 MAX_UINT_128 = (2**128) - 1
